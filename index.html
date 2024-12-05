@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Explore os Encantos da Europa</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background: url('./img/capa.jpeg') no-repeat center center/cover;
+            color: #fff;
+            height: 50vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+        header h1 {
+            font-size: 2.5rem;
+            margin: 0;
+            padding: 1rem;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 1rem;
+        }
+        .card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 1rem 0;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+        .card img {
+            width: 100%;
+            height: auto;
+        }
+        .card-content {
+            padding: 1rem;
+        }
+        .card-content h3 {
+            margin-top: 0;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+        .gallery img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        .cta {
+            text-align: center;
+            margin: 2rem 0;
+        }
+        .cta a {
+            text-decoration: none;
+            background: #007BFF;
+            color: #fff;
+            padding: 1rem 2rem;
+            border-radius: 4px;
+            transition: background 0.3s;
+        }
+        .cta a:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Explore os Encantos da Europa</h1>
+    </header>
+    <main class="container">
+        <section>
+            <p>A Europa é um continente fascinante, repleto de história, cultura e paisagens deslumbrantes. De cidades vibrantes a vilarejos pitorescos, aqui você encontra destinos que encantam qualquer tipo de viajante. Confira os locais imperdíveis para sua próxima aventura!</p>
+        </section>
+        <section>
+            <h2>Destaques de Viagem</h2>
+            <div class="card">
+                <img src="./img/paris.webp" alt="Torre Eiffel em Paris">
+                <div class="card-content">
+                    <h3>Paris, França</h3>
+                    <p>A Cidade Luz é conhecida por sua atmosfera romântica, arquitetura icônica e museus famosos como o Louvre.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/veneza.jpeg" alt="Canal em Veneza">
+                <div class="card-content">
+                    <h3>Veneza, Itália</h3>
+                    <p>Uma cidade mágica construída sobre canais, onde você pode navegar de gôndola e apreciar a arquitetura renascentista.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/santorini.webp" alt="Casas brancas em Santorini">
+                <div class="card-content">
+                    <h3>Santorini, Grécia</h3>
+                    <p>Famosa por suas casas brancas com cúpulas azuis, a ilha oferece vistas de tirar o fôlego do mar Egeu.</p>
+                </div>
+            </div>
+            <div class="card">
+                <img src="./img/londres.jpeg" alt="Big Ben em Londres">
+                <div class="card-content">
+                    <h3>Londres, Inglaterra</h3>
+                    <p>A mistura perfeita de tradição e modernidade, Londres é uma cidade global repleta de pontos turísticos.</p>
+                </div>
+            </div>
+        </section>
+        <section>
+            <h2>Galeria de Imagens</h2>
+            <div class="gallery">
+                <img src="./img/roma.jpg" alt="Coliseu em Roma">
+                <img src="./img/neuschwanstein.jpeg" alt="Castelo de Neuschwanstein">
+                <img src="./img/aurora.webp" alt="Aurora Boreal na Noruega">
+                <img src="./img/cracovia.jpg" alt="Praça do Mercado em Cracóvia">
+            </div>
+        </section>
+        <section class="cta">
+            <h2>Planeje sua Viagem</h2>
+            <p>Pronto para explorar a Europa? Baixe nosso guia completo com roteiros detalhados e dicas exclusivas.</p>
+            <a href="#">Baixar Guia</a>
+        </section>
+    </main>
+</body>
+</html>
